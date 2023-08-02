@@ -1,4 +1,74 @@
 img{
     max-width: 50%;
     max-height: 50%;
+    border-color: white;
+    border-style: double;
+    border-radius: 8%;
+    padding: 5px;
+    box-shadow: 6px 0 0 white, -6px 0 0 white;
+}
+
+body{
+    background-color: "black";
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/06/blood-08.png);
+    margin:8px;
+
+}
+#mainHeading{
+    color:red;
+    background-color: black;
+    background-size: cover; 
+}
+
+li{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+ }
+ ol{
+    text-align: center;
+ }
+ p{
+    color:white;
+    font-family:fantasy;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    
+ }
+ h1{
+    font-size: 65px;
+    color: red;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+ }
+ h2{
+    font-size: 30px;
+    color:red;
+    -webkit-text-stroke-width: .7px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+ }
+ #testP{
+    color:green;
+    text-align: right;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: red;
+ }
+
+p.centerText{text-align: center}
+
+#borderH{
+    font-size: 45px; 
+    border-style: groove;
+    border-color: white;
+    border-radius: 8px;
+    padding: 2%;
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
 }
